@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+<body>
+  <header>
+    <div class="navigation">
+      <a href="#" class="logo-header"><img src="./images/logo.svg" alt="fylo logo" class="logo-header-img"></a>
+      <nav>
+        <ul class="nav-items-list">
+          <li class="nav-item"><a href="#">Features</a></li>
+          <li class="nav-item"><a href="#">Team</a></li>
+          <li class="nav-item"><a href="#">Sign In</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main-container">
+      <section class="primary">
+        <div class="section-container flex">
+          <div class="primary-text">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>Fylo stores your most important files in one secure location. 
+              Access them wherever you need, share and collaborate with friends, 
+              family, and co-workers.</p>
+              
+            <form class="form-primary">
+              <!-- <label for="email">Enter your email:</label> -->
+              <input type="email" id="email" name="email" placeholder="Enter your email..." class="email" required>
+              <input type="submit" value="Get Started" class="btn btn-primary">
+            </form>
+          </div>
+          <div class="primary-illustration">
+            <img src="./images/illustration-1.svg" alt="primary illustration" class="primary-illustration-img">
+          </div>
+        </div>
+      </section>
+      
+      <div class="curved-border"></div> 
+
+      <section class="secondary">
+        <div class="section-container flex">
+          <div class="secondary-text">
+            <h2>Stay productive, wherever you are</h2>
+            <p>Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!</p>
+            <p class="arrow-line">
+              <a href="#" class="arrow-link">See how Fylo works <img src="./images/icon-arrow.svg" alt="arrow icon" class="arrow-icon"></a>
+            </p>
+            <div class="review-box">
+              <img src="./images/icon-quotes.svg" alt="quotes bracket">
+              <p>Fylo has improved our team productivity by an order of magnitude. Since 
+                making the switch our team has become a well-oiled collaboration machine.</p>
+              <div class="reviewer">
+                <img src="./images/avatar-testimonial.jpg" alt="reviewer photo" class="reviewer-profile-photo">
+                <div class="reviewer-details">
+                  <div class="reviewer-name">Kyle Burton</div>
+                  <div class="reviewer-designation">Founder & CEO, Huddle</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="secondary-illustration">
+            <img src="./images/illustration-2.svg" alt="secondary illustration" class="secondary-illustration-img">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="tertiary">
+        <div class="section-container flex">
+          <div class="tertiary-text">
+            <h2>Get early access today</h2>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+              If you have any questions, our support team would be happy to help you.</p>
+          </div>
+          <div class="tertiary-form-box">
+            <form class="form-tertiary">
+              <input type="email" id="email" name="email" placeholder="email@example.com" class="email"> <br/>
+              <input type="submit" value="Get Started For Free" class="btn btn-tertiary">
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <footer>
+    <img src="./images/logo.svg" alt="fylo logo" class="logo-footer">
+    <div class="footer-container grid">
+      <div class="contacts-container">
+        <ul class="contacts-list">
+          <li class="contacts-line-1">
+            <img src="./images/icon-phone.svg" alt="phone icon" class="phone-icon">
+            <p>Phone: +1-543-123-4567</p>
+          </li>
+          <li class="contacts-line-2">
+            <img src="./images/icon-email.svg" alt="email icon" class="email-icon">
+            <p>example@fylo.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="links-container">
+        <ul class="links-list-line1">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+        <ul class="links-list-line2">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="social-container">
+        <ul class="social-nav">
+          <li class="social-list-item"><i class="fa fa-facebook"></i></li>
+          <li class="social-list-item"><i class="fa fa-twitter"></i></li>
+          <li class="social-list-item"><i class="fa fa-instagram"></i></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="attribution-container">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/itkhanz"  target="_blank">Ibtisam Tanveer Khan</a>.
+      </p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
